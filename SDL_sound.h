@@ -1,5 +1,5 @@
- #include <AvailabilityMacros.h>
- #include "TargetConditionals.h"
+
+
 
 
 
@@ -15,31 +15,31 @@ extern __attribute__ ((visibility("default"))) const char * SDL_GetPlatform (voi
 
 
 
- #include <AvailabilityMacros.h>
-
-
- #include <sys/types.h>
-
-
- #include <stdio.h>
-
-
- #include <stdlib.h>
- #include <stddef.h>
- #include <stdarg.h>
- #include <string.h>
 
 
 
 
 
- #include <inttypes.h>
 
 
 
 
- #include <ctype.h>
- #include <math.h>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 typedef enum
 {
     SDL_FALSE = 0,
@@ -105,7 +105,7 @@ typedef int SDL_dummy_enum[(sizeof(SDL_DUMMY_ENUM) == sizeof(int)) * 2 - 1];
 
 
 
- #include <alloca.h>
+
 extern __attribute__ ((visibility("default"))) void * SDL_malloc(size_t size);
 extern __attribute__ ((visibility("default"))) void * SDL_calloc(size_t nmemb, size_t size);
 extern __attribute__ ((visibility("default"))) void * SDL_realloc(void *mem, size_t size);
@@ -817,16 +817,16 @@ extern __attribute__ ((visibility("default"))) SDL_bool SDL_HasClipboardText(voi
 
 
 
- #include <mmintrin.h>
 
 
 
 
 
- #include <xmmintrin.h>
 
 
- #include <emmintrin.h>
+
+
+
 
 
 
@@ -4566,4 +4566,3 @@ typedef struct
             Uint32 Sound_DecodeAll(Sound_Sample *sample);
             int Sound_Rewind(Sound_Sample *sample);
             int Sound_Seek(Sound_Sample *sample, Uint32 ms);
-
